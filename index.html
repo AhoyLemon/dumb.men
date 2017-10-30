@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test</title>
+    <link href="css/dumb.css" rel="stylesheet">
+  </head>
+  <body>
+    <main id="app">
+      <section class="raindrops" v-show="raindrops">
+        <figure class="drop" v-for="drop in raindrops" v-bind:style="drop.seconds"><img :src="filePath + drop.file" v-bind:style="drop.styleObject"></figure>
+      </section>
+    </main>
+    <div class="cover"></div>
+    <div class="javascripts">
+      <script src="https://unpkg.com/vue"></script>
+      <script src="js/min/dumb.min.js"></script>
+    </div>
+  </body>
+</html>

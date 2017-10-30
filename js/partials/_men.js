@@ -1,0 +1,22 @@
+var dumbMen = [
+  { file: 'adam_sandler.jpg' },
+  { file: 'billy_corgan.jpg' },
+  { file: 'don_trump_jr.jpg' },
+  { file: 'dr_oz.jpg' },
+  { file: 'ed_sheeran.jpg' },
+  { file: 'jared_kushner.jpg' },
+  { file: 'jim_davis.jpg' },
+  { file: 'karl_rove.jpg' },
+  { file: 'louie_gohmert.jpg' },
+  { file: 'metallica.jpg' },
+  { file: 'nic_cage.jpg' },
+  { file: 'quentin_tarrantino.jpg' },
+  { file: 'r_kelly.jpg' },
+  { file: 'riff_raff.jpg' },
+  { file: 'slavoj_zizek.jpg' },
+  { file: 'steve_harvey.jpg' },
+  { file: 'will_i_am.jpg' },
+  { file: 'glenn_danzig.jpg' },
+  { file: 'kevin_smith.jpg' },
+  { file: 'steven_seagal.jpg' }
+];

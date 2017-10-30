@@ -1,0 +1,15 @@
+- var testing = "true"
+
+doctype html
+html(lang="en")
+  head
+    title Test
+    link(href="css/dumb.css" rel="stylesheet")
+  body
+    main#app
+      section.raindrops(v-show="raindrops")
+        figure.drop(v-for="drop in raindrops" v-bind:style="drop.seconds")
+          img(:src="filePath + drop.file" v-bind:style="drop.styleObject")
+    .cover
+             
+    include partials/_javascripts.pug

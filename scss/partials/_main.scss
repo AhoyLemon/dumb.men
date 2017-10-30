@@ -1,0 +1,9 @@
+@keyframes fall {
+  from { transform: translateY(-100%); }
+  to   { transform: translateY(100%);  }
+}
+
+
+figure.drop { @include position(fixed,0,0,0,0); @include flex-center(); animation-name: fall; animation-iteration-count: 1; animation-duration: 3s; animation-timing-function: linear; animation-fill-mode: forwards;
+  img { max-width: 80%; }
+}
