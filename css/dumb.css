@@ -360,11 +360,24 @@ figure.drop {
   animation-iteration-count: 1;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: cubic-bezier(0.71, -0.02, 1, 1);
+  animation-timing-function: cubic-bezier(0.71, -0.02, 1, 1);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
   figure.drop img {
-    max-width: 80%; }
+    max-width: 80%;
+    -webkit-box-sizing: 0 0 10px #212121;
+    box-sizing: 0 0 10px #212121; }
+
+audio {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  display: block;
+  width: 100%; }
 
 /*# sourceMappingURL=dumb.css.map */

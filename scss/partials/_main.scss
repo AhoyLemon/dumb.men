@@ -4,6 +4,7 @@
 }
 
 
-figure.drop { @include position(fixed,0,0,0,0); @include flex-center(); animation-name: fall; animation-iteration-count: 1; animation-duration: 3s; animation-timing-function: linear; animation-fill-mode: forwards;
-  img { max-width: 80%; }
+figure.drop { @include position(fixed,0,0,0,0); @include flex-center(); animation-name: fall; animation-iteration-count: 1; animation-duration: 3s; animation-timing-function: ease-out; animation-timing-function: cubic-bezier(.71,-0.02,1,1); animation-fill-mode: forwards;
+  img { max-width: 80%; box-sizing: 0 0 10px $black; }
 }
+audio { @include position(fixed,null,0,0,0); z-index: 3; display: block; width: 100%;}
