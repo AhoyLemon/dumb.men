@@ -362,21 +362,39 @@ figure.drop {
   animation-duration: 3s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
-  -webkit-animation-timing-function: cubic-bezier(0.71, -0.02, 1, 1);
-  animation-timing-function: cubic-bezier(0.71, -0.02, 1, 1);
+  /*animation-timing-function: cubic-bezier(.71,-0.02,1,1); */
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
   figure.drop img {
     max-width: 80%;
     -webkit-box-sizing: 0 0 10px #212121;
-    box-sizing: 0 0 10px #212121; }
+    box-sizing: 0 0 10px #212121;
+    /* mask-image:url(http://localhost:7880/svg/heart.svg); */
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain; }
+    figure.drop img.heart-1 {
+      -webkit-mask-image: url(../svg/heart-1.svg);
+      mask-image: url(../svg/heart-1.svg); }
+    figure.drop img.heart-2 {
+      -webkit-mask-image: url(../svg/heart-2.svg);
+      mask-image: url(../svg/heart-2.svg); }
+    figure.drop img.heart-3 {
+      -webkit-mask-image: url(../svg/heart-3.svg);
+      mask-image: url(../svg/heart-3.svg); }
+    figure.drop img.heart-4 {
+      -webkit-mask-image: url(../svg/heart-4.svg);
+      mask-image: url(../svg/heart-4.svg); }
 
 audio {
   position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 3;
+  z-index: 1050;
   display: block;
   width: 100%; }
 
