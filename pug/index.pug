@@ -1,6 +1,7 @@
+- var testing = true
 - var siteTitle = "Dumb Men"
 - var siteURL = "http://dumb.men"
-- var testing = "true"
+- var fPlusURL = ""
 - var description = "Halelujah, it's raining dumb men! Amen."
 - var d = new Date()
 - var lastUpdated = d.getFullYear() + '-' + (d.getMonth()<10?'0':'') + d.getMonth() + '-' + (d.getDate()<10?'0':'') + d.getDate() + '@' + (d.getHours()<10?'0':'') + d.getHours() + ':' + (d.getMinutes()<10?'0':'') + d.getMinutes() + ':' + (d.getSeconds()<10?'0':'') + d.getSeconds()
@@ -20,5 +21,6 @@ html(lang="en")
     audio(controls autoplay loop muted)
       source(src="audio/raining.ogg" type="audio/ogg")
       source(src="audio/raining.mp3" type="audio/mpeg")
-             
+    
+    include partials/_schema.pug
     include partials/_javascripts.pug
