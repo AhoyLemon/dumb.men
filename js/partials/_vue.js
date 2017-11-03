@@ -31,7 +31,7 @@ var app = new Vue({
       var maxSize = 1.05;
       
       var s = minSize + (sizeDiff * (maxSize - minSize));
-      var tX = (-120 + (Math.random() * 240)) + '%';
+      var tX = (-40 + Math.floor(Math.random() * 80)) + 'vw';
       
       // Fall speed
       var minSpeed = 2;
