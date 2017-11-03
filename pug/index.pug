@@ -1,4 +1,5 @@
-- var siteTitle = "dumb.men"
+- var siteTitle = "Dumb Men"
+- var siteURL = "http://dumb.men"
 - var testing = "true"
 - var description = "Halelujah, it's raining dumb men! Amen."
 - var d = new Date()
@@ -6,24 +7,17 @@
 doctype html
 html(lang="en")
   head
-  
-    meta(charset="utf-8")
-    title= siteTitle
-    meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
-    link(rel="stylesheet" href="css/damn.css?v="+lastUpdated)
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-    meta(name="description" content=description)
-    meta(http-equiv="last-modified" content=lastUpdated)
-
-    title Test
-    link(href="css/dumb.css?lastUpdated="+lastUpdated rel="stylesheet")
+    include partials/_head.pug
   body
     main#app
+      
+      include partials/_sidebar.pug
+      
       section.raindrops#Raindrops(v-show="raindrops")
         figure.drop(v-for="drop in raindrops" v-bind:style="drop.seconds")
           img(:src="filePath + drop.file" v-bind:class="drop.class" v-bind:style="drop.styleObject")
-    .cover
-    audio(controls autoplay loop)
+
+    audio(controls autoplay loop muted)
       source(src="audio/raining.ogg" type="audio/ogg")
       source(src="audio/raining.mp3" type="audio/mpeg")
              

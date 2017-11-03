@@ -4,8 +4,8 @@
 @import "globals/_mixins";
 @import "globals/_extends";
 @import "globals/_z-index";
-@import "globals/_defaults";
 
 // SITE SPECIFIC
 @import "partials/_defaults";
+@import "partials/_sidebar"; 
 @import "partials/_main"; 
