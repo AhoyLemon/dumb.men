@@ -17,7 +17,7 @@ var app = new Vue({
         self.newRaindrop();
       } else {
         self.recentMen.push(self.men[r].file);
-        if (self.recentMen.length > 12) {
+        if (self.recentMen.length > 22) {
           self.recentMen.shift();
         }
       }
@@ -39,7 +39,7 @@ var app = new Vue({
       var aD = maxSpeed - ((maxSpeed - minSpeed) * sizeDiff) + 's';
       
       var rot = (-16 + (Math.random() * 32)) + 'deg';
-      var shd = Math.floor(30 * sizeDiff) + 'px'
+      var shd = Math.floor(30 * sizeDiff) + 'px';
       
       var drop = {
         file: self.men[r].file,
