@@ -21,3 +21,8 @@ Yes.
 
 ## Did Lemon make this?
 [Yes](http://ahoylemon.xyz).
+
+## That logo is terrfic!
+I agree! [Trav Ramsey](https://twitter.com/trav_ramsey) drew the icon and OpenGraph. You should hire him to draw something for you.
+
+The background image is [by Noah Sillman](https://unsplash.com/photos/WQo7FmqQBpo), available on Unsplash.
