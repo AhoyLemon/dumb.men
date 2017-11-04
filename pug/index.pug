@@ -18,7 +18,7 @@ html(lang="en")
         figure.drop(v-for="drop in raindrops" v-bind:style="drop.seconds")
           img(:src="filePath + drop.file" v-bind:class="drop.class" v-bind:style="drop.styleObject")
 
-    audio(controls autoplay loop muted)
+    audio(controls autoplay loop)
       source(src="audio/raining.ogg" type="audio/ogg")
       source(src="audio/raining.mp3" type="audio/mpeg")
     
