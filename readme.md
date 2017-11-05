@@ -1,5 +1,5 @@
-### HalHalelujah, it's raining dumb men!
-### Amen.
+![dumb.men](https://dumb.men/img/og-image.png)
+### Halelujah, it's raining dumb men. Amen.
 
 ## What is this?
 Well, did you look at the site?
@@ -19,8 +19,8 @@ Yes.
 ## Who are all these men?
 [Look here](https://github.com/AhoyLemon/dumb.men/blob/master/js/partials/_men.js).
 
-## Did Lemon make this?
-[Yes](http://ahoylemon.xyz).
+## Who made this thing
+[Lemon](http://ahoylemon.xyz) made this. [Todd Gardner](https://twitter/toddhgardner) helped come up with the idea.
 
 ## That logo is terrfic!
 I agree! [Trav Ramsey](https://twitter.com/trav_ramsey) drew the icon and OpenGraph. You should hire him to draw something for you.
