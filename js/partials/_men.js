@@ -5,6 +5,7 @@ var dumbMen = [
   { file: 'billy_corgan.jpg' },
   { file: 'birdman.jpg' },
   { file: 'bruce_willis.jpg' },
+  { file: 'chris_christie.jpg' },
   { file: 'dave_mustaine.jpg' },
   { file: 'don_trump_jr.jpg' },
   { file: 'dr_oz.jpg' },
