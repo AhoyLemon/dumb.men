@@ -1,6 +1,7 @@
 var dumbMen = [
   { file: 'adam_sandler.jpg' },
   { file: 'andrew_dice_clay.jpg' },
+  { file: 'anthony_kiedis.jpg' },
   { file: 'anthony_scaramucci.jpg' },
   { file: 'billy_corgan.jpg' },
   { file: 'birdman.jpg' },
@@ -19,7 +20,7 @@ var dumbMen = [
   { file: 'jim_davis.jpg' },
   { file: 'jimmy_fallon.jpg' },
   { file: 'karl_rove.jpg' },
-  { file: 'keanu_reeves.jpg' },
+  //{ file: 'keanu_reeves.jpg' },
   { file: 'lars_ulrich.jpg' },
   { file: 'liam_gallagher.jpg' },
   { file: 'lil_wayne.jpg' },
