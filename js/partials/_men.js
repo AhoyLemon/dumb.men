@@ -44,6 +44,7 @@ var dumbMen = [
   { file: 'steven_seagal.jpg' },
   { file: 'steven_tyler.jpg' },
   { file: 'the_situation.jpg' },
+  { file: 'travis_kalanick.jpg' },
   { file: 'toby_keith.jpg' },
   { file: 'violent_j.jpg' },
   { file: 'will_i_am.jpg' },
