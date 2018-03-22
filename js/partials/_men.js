@@ -1,5 +1,6 @@
 var dumbMen = [
   { file: 'adam_sandler.jpg' },
+  { file: 'ajit_pai.jpg' },
   { file: 'andrew_dice_clay.jpg' },
   { file: 'anthony_kiedis.jpg' },
   { file: 'anthony_scaramucci.jpg' },
