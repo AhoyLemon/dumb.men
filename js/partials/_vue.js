@@ -125,9 +125,6 @@ var app = new Vue({
   mounted: function () {
     var self = this;
 
-    var audio = new Audio('audio/raining.mp3');
-    audio.play();
-
     //self.newRaindrop();
     self.newRaindrop();
     //function doSomething() {}
