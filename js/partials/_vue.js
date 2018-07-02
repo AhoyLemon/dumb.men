@@ -127,7 +127,6 @@ var app = new Vue({
 
     var audio = new Audio('audio/raining.mp3');
     audio.play();
-    self.bannerVisible = true;
 
     //self.newRaindrop();
     self.newRaindrop();
